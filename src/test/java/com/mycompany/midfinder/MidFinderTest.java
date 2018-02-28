@@ -33,6 +33,6 @@ public class MidFinderTest {
 
     @Test(expected = IllegalArgumentException.class)
     public void givenInputStringIsBlank_whenFindMidIndex_thenThrowException() {
-        classUnderTest.findMidIndex("");
+        classUnderTest.findMidIndex("   ");
     }
 }
