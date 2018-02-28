@@ -11,7 +11,7 @@ public class MidFinder {
             throw new IllegalArgumentException();
         }
 
-        if (input.equals("")) {
+        if ("".equals(input)) {
             throw new IllegalArgumentException();
         }
 
