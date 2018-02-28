@@ -15,6 +15,6 @@ public class MidFinder {
             throw new IllegalArgumentException();
         }
 
-        return 0;
+        return input.length() / 2;
     }
 }
