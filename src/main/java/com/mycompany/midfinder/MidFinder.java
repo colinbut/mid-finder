@@ -5,13 +5,12 @@
  */
 package com.mycompany.midfinder;
 
+import org.apache.commons.lang3.StringUtils;
+
 public class MidFinder {
     public int findMidIndex(String input) {
-        if (input == null) {
-            throw new IllegalArgumentException();
-        }
 
-        if ("".equals(input)) {
+        if (StringUtils.isBlank(input)) {
             throw new IllegalArgumentException();
         }
 
